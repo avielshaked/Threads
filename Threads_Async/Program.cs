@@ -149,7 +149,7 @@ namespace Exrecise
         {
             Console.WriteLine("start count....");
             int count = 0;
-            for (int i = 0; i < 500; i++)
+            for (int i = 0; i < 5000000; i++)
             {
                 count++;
             }
