@@ -20,8 +20,9 @@ namespace Exrecise
         static long[] portionResults;
         static int portionSize;
 
-        static void GenerateInts()
+        static  void GenerateInts()
         {
+            Console.WriteLine("Please wait...");
             var rand = new Random(987);
             for (int i = 0; i < values.Length; i++)
             {
@@ -64,7 +65,7 @@ namespace Exrecise
             nc(5);
 
             FillValues();
-            foreach(var item in Filter())
+            foreach (var item in Filter())
             {
                 Console.WriteLine(item);
             }
@@ -146,6 +147,7 @@ namespace Exrecise
 
         private static int CountCharacters()
         {
+            Console.WriteLine("start count....");
             int count = 0;
             for (int i = 0; i < 500; i++)
             {
